@@ -1,0 +1,142 @@
+body {
+	background: #2B2D42;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 1em;
+	background: #3D4872;
+	margin: 0;
+	position: relative;
+}
+
+#logo {
+	height: 50px;
+	padding: 5px;
+}
+
+header nav {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	padding: inherit;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0;
+}
+
+header nav li {
+	display: inline-block;
+	margin-right: 10px
+}
+
+header nav a {
+	font-size: 21px;
+	background: #edf2f4;
+	color: #8d99ae;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: inherit;
+}
+
+h1 {
+	text-align: center;
+		color: #edf2f4;
+}
+
+#self {
+	width: 1000px;
+	height: 1000px;
+}
+
+p {
+	color: #edf2f4;
+	padding: 50px;
+}
+
+h3 {
+	color: #edf2f4;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.NavIndex {
+	padding-bottom: 50px;
+	margin: auto;
+}
+
+.clear{
+	clear: both;
+}
+
+#nicontainer {
+	width: 640px;
+	margin: auto;
+	padding-left: 97px;
+	padding-right: 97px;
+}
+
+.NILinks {
+	background: #181919;
+	border-radius: 40px;
+	text-align: center;
+	border: 200px;
+	height:auto;
+	width: auto;
+	margin: 20px;
+	margin-left: 20px;
+	padding: 20px;
+	float: left;
+	font-size: 22;
+}
+
+h4 {
+	color: #d5c1ff;
+	margin: 0;
+}
+
+footer {
+	padding: 1em;
+	background: #3D4872;
+	margin: 2;
+	position: relative;
+	height: 75px;
+	width:auto;
+}
+
+footer nav {
+	position: absolute;
+	top: 57px;
+	left: -22px;
+	bottom: 20px;
+}
+
+footer nav ul {
+	list-style: none;
+	margin: 0;
+}
+
+footer nav li {
+	display: inline-block;
+}
+
+footer nav a {
+	font-size: 18px;
+	background: #edf2f4;
+	color: #8d99ae;
+	padding: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: inherit;
+}
+
+footer p {
+	color: #d5c1ff;
+	font-style: italic;
+	font-size: 18px;
+}

@@ -2,40 +2,55 @@
 <html>
 
 <head>
-    <title>Contact</title>
+	<title>Contact</title>
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">Biography</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-    <form>First Name<br><input type="text" placeholder="Bob" required></form><br>
-    <form>Last Name<br><input type="text" placeholder="Ross" required></form>
-    <br>
-    <form>Gender<br><input type="radio" name="gender" value="male" required>Male</form>
-    <form><input type="radio" name="gender" value="female" required>Female</form>
-    <form><input type="radio" name="gender" value="other" required>Other</form>
-    <br>
-    <textarea name="message>" placeholder="Type your message here!"></textarea>
-    <form><input type="submit"></form>
-    <div>
-        <footer>
-            <p>&copy;Jamilabelah Caraballo</p>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">Biography</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </footer>
-    </div>
+	<header>
+			<div>
+				<img id="logo" src="assets/imgs/starlogo.png">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">Biography</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+	</header>
+	<h3>Want to Talk? Great!</h3>
+	<div>
+		<form>
+			<label>First Name<br>
+				<input type="text" name="fn" placeholder="Bob" required>
+			</label>
+			<br>
+			<label> Last Name<br>
+				<input type="text" name="ln" placeholder="Ross" required>
+			</label>
+			<label><br>
+				Email<br>
+				<input type="email" name="el" placeholder="bross@gmail.com" required>
+			</label><br>
+			Gender<br>
+			<label>
+				<input type="radio" name="gender" value="male">Male
+			</label>
+			<br>
+			<label>
+				<input type="radio" name="gender" value="female">Female
+			</label>
+			<br>
+			<label>
+				<input type="radio" name="gender" value="self id">Self ID
+			</label>
+			<br><br>
+			<textarea name="message" placeholder="Type message here!"></textarea>
+			<br>
+			<input type="submit" name="sub1" value="Send Now">
+		</form>
+	</div>
 
 </body>
 
