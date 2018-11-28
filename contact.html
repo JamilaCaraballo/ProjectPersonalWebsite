@@ -8,48 +8,66 @@
 
 <body>
 	<header>
-			<div>
-				<img id="logo" src="assets/imgs/starlogo.png">
-			</div>
+		<div>
+			<img id="logo" src="assets/imgs/starlogo.png">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">Talents</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<h1>Want to Talk? Great!</h1>
+	<div>
+		<form>
+			<label>
+				<h3>First Name</h3>
+				<input type="text" name="fn" placeholder="Bob" required>
+			</label>
+			<label>
+				<h3>Last Name</h3>
+				<input type="text" name="ln" placeholder="Ross" required>
+			</label>
+			<label>
+				<h3>Email</h3>
+				<input type="email" name="el" placeholder="bross@gmail.com" required>
+			</label>
+			<h3>Gender</h3>
+			<label class="genderradio">
+				<input type="radio" name="gender" value="male">Male<br><span class="radio"></span>
+			</label>
+
+
+			<label class="genderradio">
+				<input type="radio" name="gender" value="female">Female<br><span class="radio"></span>
+			</label>
+
+
+			<label class="genderradio">
+				<input type="radio" name="gender" value="self id">Self ID<br><span class="radio"></span>
+			</label>
+			<br>
+
+
+			<textarea name="message" placeholder="Type message here!"></textarea><br>
+			
+			<input type="submit" name="sub1" value="Send Message">
+		</form>
+	</div>
+
+	<div>
+		<footer>
+			<h4>&copy;Jamilabelah Caraballo</h4>
 			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">Biography</a></li>
+					<li><a href="about.html">Talents</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
-	</header>
-	<h3>Want to Talk? Great!</h3>
-	<div>
-		<form>
-			<label>First Name<br>
-				<input type="text" name="fn" placeholder="Bob" required>
-			</label>
-			<br>
-			<label> Last Name<br>
-				<input type="text" name="ln" placeholder="Ross" required>
-			</label>
-			<label><br>
-				Email<br>
-				<input type="email" name="el" placeholder="bross@gmail.com" required>
-			</label><br>
-			Gender<br>
-			<label>
-				<input type="radio" name="gender" value="male">Male
-			</label>
-			<br>
-			<label>
-				<input type="radio" name="gender" value="female">Female
-			</label>
-			<br>
-			<label>
-				<input type="radio" name="gender" value="self id">Self ID
-			</label>
-			<br><br>
-			<textarea name="message" placeholder="Type message here!"></textarea>
-			<br>
-			<input type="submit" name="sub1" value="Send Now">
-		</form>
+		</footer>
 	</div>
 
 </body>
