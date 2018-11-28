@@ -1,142 +1,159 @@
 body {
-	background: #2B2D42;
-	margin: 0;
-	padding: 0;
+    background: #2B2D42;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-	padding: 1em;
-	background: #3D4872;
-	margin: 0;
-	position: relative;
+    padding: 1em;
+    background: #3D4872;
+    margin: 0;
+    position: relative;
 }
 
 #logo {
-	height: 50px;
-	padding: 5px;
+    height: 50px;
+    padding: 5px;
 }
 
 header nav {
-	position: absolute;
-	top: 20px;
-	right: 10px;
-	padding: inherit;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    padding: inherit;
 }
 
 header nav ul {
-	list-style: none;
-	margin: 0;
+    list-style: none;
+    margin: 0;
 }
 
 header nav li {
-	display: inline-block;
-	margin-right: 10px
+    display: inline-block;
+    margin-right: 10px
 }
 
 header nav a {
-	font-size: 21px;
-	background: #edf2f4;
-	color: #8d99ae;
-	padding: 10px;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-family: inherit;
+    font-size: 21px;
+    background: #edf2f4;
+    color: #8d99ae;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: inherit;
 }
 
 h1 {
-	text-align: center;
-		color: #edf2f4;
+    text-align: center;
+    color: #edf2f4;
 }
 
 #self {
-	width: 1000px;
-	height: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 50%;
+    border: 5px solid #edf2f4;
 }
 
 p {
-	color: #edf2f4;
-	padding: 50px;
+    color: #edf2f4;
+    padding: 50px;
+    font-size: 25px;
+    text-indent: 50px;
 }
 
 h3 {
-	color: #edf2f4;
-	font-weight: bold;
-	font-size: 20px;
-	margin: 10px;
+    color: #edf2f4;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
 }
 
 .NavIndex {
-	padding-bottom: 50px;
-	margin: auto;
+    padding-bottom: 50px;
+    margin: auto;
 }
 
-.clear{
-	clear: both;
+.clear {
+    clear: both;
 }
 
 #nicontainer {
-	width: 640px;
-	margin: auto;
-	padding-left: 97px;
-	padding-right: 97px;
+    width: 640px;
+    margin: auto;
+    padding-left: 97px;
+    padding-right: 97px;
 }
 
 .NILinks {
-	background: #181919;
-	border-radius: 40px;
-	text-align: center;
-	border: 200px;
-	height:auto;
-	width: auto;
-	margin: 20px;
-	margin-left: 20px;
-	padding: 20px;
-	float: left;
-	font-size: 22;
+    background: #151823;
+    display: block;
+    line-height: 26px;
+    border-radius: 40px;
+    text-align: center;
+    border: 200px;
+    height: auto;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px;
+    float: left;
+    font-size: 22;
+}
+
+#aboutcontact {
+    text-decoration-style: none;
+    color: #edf2f4;
+    padding: 10px;
+    background-color: aqua;
 }
 
 h4 {
-	color: #d5c1ff;
-	margin: 0;
+    color: #d5c1ff;
+    margin: 0;
+    margin-left: 10px;
 }
 
 footer {
-	padding: 1em;
-	background: #3D4872;
-	margin: 2;
-	position: relative;
-	height: 75px;
-	width:auto;
+    padding: 1em;
+    background: #3D4872;
+    margin: 2;
+    position: relative;
+    height: 75px;
+    width: auto;
 }
 
 footer nav {
-	position: absolute;
-	top: 57px;
-	left: -22px;
-	bottom: 20px;
+    position: absolute;
+    top: 57px;
+    left: -22px;
+    bottom: 20px;
 }
 
 footer nav ul {
-	list-style: none;
-	margin: 0;
+    list-style: none;
+    margin: 0;
 }
 
 footer nav li {
-	display: inline-block;
+    display: inline-block;
 }
 
 footer nav a {
-	font-size: 18px;
-	background: #edf2f4;
-	color: #8d99ae;
-	padding: 5px;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-family: inherit;
+    font-size: 18px;
+    background: #edf2f4;
+    color: #8d99ae;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-family: inherit;
+    margin: 5px;
 }
 
 footer p {
-	color: #d5c1ff;
-	font-style: italic;
-	font-size: 18px;
+    color: #d5c1ff;
+    font-style: italic;
+    font-size: 18px;
 }
